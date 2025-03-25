@@ -1,0 +1,39 @@
+
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #ff5733;
+}
+
+.add-button, .remove-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
